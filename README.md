@@ -1,4 +1,4 @@
-type Market @model @searchable {
+`type Market @model @searchable {
 id: ID!
 name: String!
 products: [Product]
@@ -35,7 +35,6 @@ region: String!
 key: String!
 }
 
-
 type User
 @model(
 queries: { get: "getUser" }
@@ -69,3 +68,4 @@ address_line1: String!
 address_state: String!
 address_zip: String!
 }
+`
