@@ -35,6 +35,7 @@ region: String!
 key: String!
 }
 
+
 type User
 @model(
 queries: { get: "getUser" }
